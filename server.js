@@ -38,3 +38,10 @@ wss.on('connection', (ws) => {
         console.log('Client disconnected');
     });
 });
+
+const PORT = 5000;
+server.listen(PORT, () => {
+    console.log(`Server is running on http://localhost:${PORT}`);
+});
+
+
